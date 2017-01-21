@@ -1,4 +1,6 @@
 [TOC]
+# 开发Laravel扩展并发布到packagist.org
+    试试 composer require baoniu/hasher
 ## 开发package
 ### 创建项目目录
     laravel new package-lesson
@@ -106,10 +108,10 @@
 ### 更新版本，自动同步到packagist.org
     git add .
     git commit -m '....'
+    git push
     
     git tag 1.0 -a
     git push --tags
-
 
 ## 使用PHPUnit为Package编写单元测试
 ### 添加phpunit
@@ -143,5 +145,7 @@
     }
     
 ### 测试
-    vendor/bin/phpunit tests/MD5HasherTest 
+    vendor/bin/phpunit tests/MD5HasherTest
+    
+    
     
