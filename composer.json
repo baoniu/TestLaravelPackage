@@ -1,0 +1,16 @@
+{
+    "name": "apple/hasher",
+    "authors": [
+        {
+            "name": "Mr.Chen",
+            "email": "688977@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TestHelper\\Hasher\\": "src/"
+        }
+    }
+}
