@@ -1,6 +1,4 @@
-[TOC]
-
-# 开发Laravel扩展并发布到packagist.org
+## 开发Laravel扩展并发布到packagist.org
     试试 composer require baoniu/hasher
 ## 开发package
 ### 创建项目目录
